@@ -10,6 +10,6 @@ resource "cloudflare_record" "vulnerableapp" {
   value   = linode_instance.terraform-webapp.ip_address
   type    = "A"
 
-  ttl     = 1
+  ttl     = 60
   proxied = false
 }
