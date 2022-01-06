@@ -39,7 +39,7 @@ This Terraform script has the following dependencies
 
     `$ mv secrets.tfvars.example secrets.tfvars`
 
-    `$ nano secrets.`
+    `$ nano secrets.tfvars`
 
 - Initialize the Terraform environment.
 
